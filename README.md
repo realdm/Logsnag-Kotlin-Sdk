@@ -23,7 +23,7 @@ dependencies {
 
 ## initialize the SDK
 
-Head to logsnag.com, create a new account and get an access token.
+Head to [logsnag](logsnag.com), create a new account and get an access token.
 
 ```kotlin
 val sdk = LogSnagSdk.init("<add your token >")
