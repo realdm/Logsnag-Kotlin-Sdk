@@ -17,7 +17,7 @@ allprojects {
 Add the dependency to your project
 ```groovy
 dependencies {
-  implementation 'com.github.realdm:Logsnag-Kotlin-Sdk:Tag'
+  implementation 'com.github.realdm:Logsnag-Kotlin-Sdk:0.0.1'
 }
 ```
 
