@@ -1,5 +1,5 @@
 # Logsnag-Kotlin-Sdk
-![](https://jitpack.io/v/realdm/Logsnag-Kotlin-Sdk.svg)](https://jitpack.io/#realdm/Logsnag-Kotlin-Sdk)
+![(https://jitpack.io/v/realdm/Logsnag-Kotlin-Sdk.svg)](https://jitpack.io/#realdm/Logsnag-Kotlin-Sdk)
 
 A lightweight sdk for logsnag
 
