@@ -1,6 +1,7 @@
 package sdk.kotlin.logsnag
 
 import sdk.kotlin.logsnag.models.Event
+import sdk.kotlin.logsnag.models.Identity
 
 object LogSnagSdk {
 
@@ -19,6 +20,10 @@ object LogSnagSdk {
 
     suspend fun logEvent(event: Event) {
         logSnagRepository.logEvent(event)
+    }
+
+    suspend fun identify(identity: Identity) {
+        logSnagRepository.identify(identity)
     }
 
 }
