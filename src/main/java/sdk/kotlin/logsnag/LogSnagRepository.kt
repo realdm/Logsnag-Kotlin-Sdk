@@ -6,6 +6,7 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import sdk.kotlin.logsnag.models.Event
+import sdk.kotlin.logsnag.models.Identity
 
 class LogSnagRepository(private val token: String) : LogSnagService {
 
@@ -33,5 +34,9 @@ class LogSnagRepository(private val token: String) : LogSnagService {
 
     override suspend fun logEvent(event: Event) {
         logSnagApi.log(event)
+    }
+
+    override suspend fun identify(identity: Identity) {
+        logSnagApi.identify(identity)
     }
 }
